@@ -1,10 +1,10 @@
-# Demo 10 confirmation — bootridge error-control simulation
+# Demo 10 confirmation — bootridge error control simulation
 
 Source: `bootridge` function reference, "Demonstration 10" — Andrew Penn,
 *statistics-resampling* package manual, version 2026.02.18
 (https://gnu-octave.github.io/statistics-resampling/function/bootridge.html)
 
-These are the package author's own reported numbers, not a rerun — pulled
+These are the package author's own reported numbers, not a rerun pulled
 verbatim from the published docs for citation in the paper. Simulation
 design: n_sims = 30, n = 40, alpha = 0.05, global multicollinearity r = 0.2,
 seed = 42, crossed over p in {3, 10, 30}, q in {1, 5, 10}, SNR in
@@ -14,11 +14,11 @@ bootstrap (`bootwild`), standard and max-T corrected.
 
 ## Headline pattern (for the abstract / intro)
 
-- **FDR**: ridge-CI is the most conservative across every (p, q, SNR) cell —
-  e.g. at p=30, q=10, SNR=0.8: ridge-CI FDR = 0.168 vs wild-std FDR = 0.810.
-- **Power**: at low SNR (0.1-0.2) ridge-SS retains substantially more power
-  than wild-maxT — e.g. p=30, q=10, SNR=0.2: ridge-SS power = 0.27 vs
-  wild-maxT power = 0.01.
+- **FDR**: ridge CI is the most conservative across every (p, q, SNR) cell 
+  e.g. at p=30, q=10, SNR=0.8: ridge CI FDR = 0.168 vs wild std FDR = 0.810.
+- **Power**: at low SNR (0.1-0.2) ridge SS retains substantially more power
+  than wild maxT — e.g. p=30, q=10, SNR=0.2: ridge SS power = 0.27 vs
+  wild maxT power = 0.01.
 - **MSE (prediction)**: ridge's shared/global lambda increasingly outperforms
   per-outcome wild bootstrap as p grows — at p=30, q=5, SNR=0.1: ridge MSE =
   1.07 vs wild MSE = 5.36.

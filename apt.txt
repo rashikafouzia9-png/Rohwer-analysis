@@ -1,3 +1,6 @@
 octave
 octave-dev
 gnuplot
+fonts-freefont-ttf
+fontconfig
+ghostscript

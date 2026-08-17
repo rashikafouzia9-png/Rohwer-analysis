@@ -1,4 +1,1 @@
 octave
-octave-io
-octave-statistics
-liboctave-dev

@@ -1,6 +1,0 @@
-octave
-octave-dev
-gnuplot
-fonts-freefont-otf
-fontconfig
-ghostscript

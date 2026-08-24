@@ -2,7 +2,6 @@
 
 This is an example project using [statistics-resampling-online](https://github.com/acpennlab/statistics-resampling-online/tree/jammy-docker). Click the `launch binder` button below to load the example project in your web browser.
 
-https://mybinder.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Frashikafouzia9-png%2FRohwer-analysis&urlpath=tree%2FRohwer-analysis%2Findex.ipynb&branch=master&targetPath=https%3A%2F%2Fgithub.com%2Facpennlab%2Fstatistics-resampling-online
 
 Note that using this resource requires an active internet connection and an internet browser with javascript enabled. (If you don't know what that means then it probably is already!)
 
